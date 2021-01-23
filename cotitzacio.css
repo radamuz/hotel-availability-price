@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+body{
+    background: url(https://github.com/radamuz/LLMJSON/blob/master/fondo.jpg?raw=true) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+}
+
+.header ul{
+    text-align: center;
+}
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 10px;
+    transition: all ease 0.5s;
+}
+
+.header ul li a:hover{
+    background-color: #211b4385;       
+    }
+
+.mifondo {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.602);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+.showhide {  
+    display:none;
+}

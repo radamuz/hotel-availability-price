@@ -1,0 +1,15 @@
+{
+    "nombre":"Raúl",
+    "apellidos":"Adamuz Cano",
+    "email":"radamuz@cifpfbmoll.eu",
+    "contraseña":"password",
+    "tel1":651123654,
+    "tel2":971258741,
+    "dir":{
+        "direccion":"Calle Bernardo 16, 5c",
+        "pais":"España",
+        "ciudad":"Palma de Mallorca",
+        "zip":7010
+    },
+    "pago":"paypal"
+}

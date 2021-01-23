@@ -1,0 +1,265 @@
+*{margin: 0;}
+
+body{
+    background: url(https://github.com/radamuz/LLMJSON/blob/master/fondo.jpg?raw=true) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.header ul{
+    text-align: center;
+}
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 10px;
+    transition: all ease 0.5s;
+}
+
+.header ul li a:hover{
+    background-color: #211b4385;       
+    }
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 20px;
+    text-align: right;
+}
+
+fieldset{
+   width: 435px;
+   background-color: rgba(0, 0, 0, 0.602);
+   border-radius: 4px;
+   margin: 1px auto;
+   font-family: 'Raleway', sans-serif;
+   border: none;
+   color: #fff;
+}
+
+input[type=number]{
+    width: 110px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    background-color: rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+input[type=number]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type=radio]{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+
+button{
+    background-color: rgba(0, 0, 0, .2);
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 70px;
+    text-decoration: none;
+    box-shadow: 0px 1px 0px #9fa8a8;
+    border-radius: 4px;
+    cursor: pointer;            
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.radio{
+        text-transform: capitalize;
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        padding-left: 19px;   
+        cursor: pointer;            
+    }
+
+    .radio + .radio{
+        margin-left: 20px;
+    }
+
+    .radio input[type="radio"]{
+        display: none;
+    }
+
+    .radio span{
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 1px;
+    }
+
+    .radio span:after{
+        content: "";
+        height: 5px;
+        width: 5px;
+        background: #fff;
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        border-radius: 50%;
+        transition: 300ms ease-in-out 0s;      
+    }
+
+    .radio input[type="radio"]:checked ~ span::after{
+        transform: translate(-50%,-50%) scale(1);
+    }
+
+    legend{
+        margin-bottom: 5px;
+    }
+
+    .check input[type="checkbox"]{
+        display: none;
+    }
+
+    .check label{
+        color: rgb(255, 255, 255);
+        background: rgba(0, 0, 0, .1);
+        padding: 5px 15px 5px 15px;
+        display: inline-block;
+        position: relative;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 3px;
+    }
+
+    .check label:hover{
+        background: rgba(0, 0, 0, 0.705);
+    }
+
+    .check label:before{
+        content: "";
+        width: 17px;
+        height: 17px;
+        display: inline-block;
+        background:none;
+        position: absolute;
+        left: 17px;
+        top: 4px;
+    }
+
+    .check input[type="checkbox"]:checked + label{
+        padding: 5px 15px;
+        background: #0774d9;
+        border-radius: 2px;
+        color: #fff;
+    }
+
+    .imgMiniHab{
+        height: 148px;
+        border-radius: 4px;
+        margin: 1px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    #resultats{
+        margin: 10px 20px auto;
+        margin-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.739);
+        border-radius: 4px;
+    }
+
+    .habitacion{
+        display: inline-block;
+    }
+
+    .resultado{
+        height: 150px;
+        margin: 10px;
+        border: 3px solid rgba(255, 255, 255, 0.5);
+        border-radius: 4px;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+    }
+
+    .precios{
+        float: right;
+        border: 3px solid rgba(255, 255, 255, 0.5);
+        margin: 3px;
+        border-radius: 4px;
+        font-size: 17px;
+        font-weight: 100;
+    }
+
+    .resultado p{
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+    .precios button{
+        width: 109px;
+        margin-bottom: 2px;
+    }
+
+    .precios input{
+        margin-top: 1px;
+        margin-bottom: 2px;
+    }
+
+    #precio {
+        float: right;
+        color: #fff;
+        margin: 20px;
+        font-family: 'Raleway', sans-serif;
+        background-color: rgba(0, 0, 0, .4);
+        border-radius: 4px;
+        padding: 10px;
+    }
+
+    #cercador input[type="number"]{
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+
