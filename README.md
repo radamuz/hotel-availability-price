@@ -1,2 +1,5 @@
 # hotel-availability-price
 This was one of the last projects I did in the first-year Markup Language and Information Management Systems module of Network Information Systems Administration. This project uses jquery, bootstrap, html5, css and javascript technologies. It consists of providing a web page that checks the availability of the hotels through a JSON file hosted in another github repository (https://raw.githubusercontent.com/radamuz/LLMJSON/master/hotelesHabitaciones.json). We can apply some filters to show us the specific hotel in which we are interested. When we have selected the number of hotel rooms we want we can add them to the "cart" and from there we can go to the form to fill in to later make the payment. The data is passed from the availability page to the quote page through the GET method, so a JSON converted to string is passed as parameters in the URL.
+
+## Index
+The index.html file is disponibilidad.html
